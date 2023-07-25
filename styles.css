@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(216, 12%, 8%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  font-size: 1rem;
+  font-family: 'Overpass', sans-serif;
+}
+
+.container {
+  max-width: 400px;
+  background-color: hsl(213, 19%, 18%);
+  padding: 10px;
+  border-radius: 1rem;
+  margin: 1rem;
+}
+
+.container.active {
+  text-align: center;
+}
+
+.container>* {
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  font-size: 1rem;
+}
+
+.svg-container {
+  height: 3rem;
+  width: 3rem;
+  background-color: hsl(217, 21%, 22%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-top: 1rem;
+}
+
+.svg-active-container {
+  height: 108px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 1rem;
+}
+
+
+.head {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.875rem;
+}
+
+.description {
+  color: hsl(217, 12%, 63%);
+  font-size: 1rem;
+}
+
+.description.active {
+  margin: 0.5rem;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+
+.number-button {
+  font-size: inherit;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  background-color: hsl(217, 21%, 22%);
+  color: hsl(217, 12%, 63%);
+  transition: ease 0.4s;
+}
+
+.number-button:hover {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(25, 97%, 53%);
+  font-size: 2rem;
+}
+
+.submit-button {
+  display: block;
+  margin: 1rem auto;
+  width: 90%;
+  height: 3rem;
+  border-radius: 10rem;
+  background-color: hsl(25, 97%, 53%);
+  border: none;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  letter-spacing: .2rem;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  font-family: inherit;
+  font-size: 1rem;
+  transition: ease 0.4s
+}
+
+.submit-button:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+
+.number-button.active {
+  background-color: hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
+}
+
+.select-message {
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(217, 21%, 22%);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 5rem;
+}
+
+@media (max-width:376px) {
+
+  .container>* {
+    font-size: 0.9rem;
+  }
+
+  .head {
+    font-size: 1.5rem;
+  }
+
+}
