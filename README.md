@@ -1,6 +1,6 @@
 # Frontend Mentor - Interactive rating component solution
 
-This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -12,7 +12,6 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 - [Author](#author)
-
 
 ## Overview
 
@@ -39,17 +38,14 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
 - Flexbox
 - Vanilla JavaScript
 - Mobile-first workflow
 
 ### What I learned
 
- It was definitely worth it to make this application. The biggest challenge was surely to incorporate the "Thank you" card after submitting the number choice.
-
+It was definitely worth it to make this application. The biggest challenge was surely to incorporate the "Thank you" card after submitting the number choice.
 
 ## Author
 
 - Github - [Antonio Pedro Rodrigues](https://github.com/AntonioPedro04)
-
